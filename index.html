@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bistro Épona | レストラン</title>
+<meta name="description" content="Bistro Épona（エポナ）の公式ページ。こだわりの料理と落ち着いた空間をご紹介します。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header" id="header">
+  <div class="header__inner container">
+    <a href="#top" class="logo">Bistro <span>Épona</span></a>
+    <nav class="nav" id="nav">
+      <a href="#about" class="nav__link">概要</a>
+      <a href="#gallery" class="nav__link">ギャラリー</a>
+      <a href="#access" class="nav__link">アクセス</a>
+      <a href="tel:0300000000" class="nav__link nav__link--cta">ご予約</a>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="メニューを開く" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero" id="top">
+    <div class="hero__bg" aria-hidden="true"></div>
+    <div class="hero__content">
+      <p class="hero__eyebrow">TOKYO · FRENCH BISTRO</p>
+      <h1 class="hero__title">Bistro Épona</h1>
+      <p class="hero__lead">旬の食材と、静かな時間を。</p>
+      <div class="hero__actions">
+        <a href="#access" class="btn btn--primary">アクセス</a>
+        <a href="#gallery" class="btn btn--outline">ギャラリーを見る</a>
+      </div>
+    </div>
+    <a href="#about" class="scroll-cue" aria-label="下にスクロール">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ===== 概要 ===== -->
+  <section class="section about" id="about">
+    <div class="container">
+      <p class="section__eyebrow">ABOUT</p>
+      <h2 class="section__title">概要</h2>
+
+      <div class="about__grid">
+        <div class="about__image placeholder-img" aria-hidden="true">
+          <span>店内写真</span>
+        </div>
+        <div class="about__text">
+          <p>
+            Bistro Épona（エポナ）は、旬の食材と丁寧な仕込みにこだわる
+            フレンチビストロです。落ち着いた木の温もりある空間で、
+            シェフが目の前で仕上げる一皿とともに、ゆったりとした時間をお過ごしいただけます。
+          </p>
+          <p>
+            ※本文はプレースホルダーです。実際の店舗コンセプトに合わせて差し替えてください。
+          </p>
+
+          <ul class="about__features">
+            <li>
+              <strong>こだわりの食材</strong>
+              <span>契約農家から届く旬の野菜と厳選した食材を使用</span>
+            </li>
+            <li>
+              <strong>シェフ紹介</strong>
+              <span>フランス修業を経たシェフによる本格ビストロ料理</span>
+            </li>
+            <li>
+              <strong>営業時間</strong>
+              <span>11:30–14:30（L.O. 14:00） / 18:00–22:30（L.O. 21:30）</span>
+            </li>
+            <li>
+              <strong>定休日</strong>
+              <span>毎週水曜日・第3火曜日</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ギャラリー ===== -->
+  <section class="section gallery" id="gallery">
+    <div class="container">
+      <p class="section__eyebrow">GALLERY</p>
+      <h2 class="section__title">ギャラリー</h2>
+      <p class="section__lead">料理や店内の様子です。（プレースホルダー画像）</p>
+
+      <div class="gallery__grid">
+        <button class="gallery__item placeholder-img" data-caption="料理写真 1"><span>料理写真 1</span></button>
+        <button class="gallery__item placeholder-img" data-caption="料理写真 2"><span>料理写真 2</span></button>
+        <button class="gallery__item placeholder-img" data-caption="店内写真 1"><span>店内写真 1</span></button>
+        <button class="gallery__item placeholder-img" data-caption="料理写真 3"><span>料理写真 3</span></button>
+        <button class="gallery__item placeholder-img" data-caption="店内写真 2"><span>店内写真 2</span></button>
+        <button class="gallery__item placeholder-img" data-caption="料理写真 4"><span>料理写真 4</span></button>
+      </div>
+    </div>
+
+    <div class="lightbox" id="lightbox">
+      <button class="lightbox__close" id="lightboxClose" aria-label="閉じる">&times;</button>
+      <div class="lightbox__content placeholder-img">
+        <span id="lightboxCaption">料理写真</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== アクセス ===== -->
+  <section class="section access" id="access">
+    <div class="container">
+      <p class="section__eyebrow">ACCESS</p>
+      <h2 class="section__title">アクセス</h2>
+
+      <div class="access__grid">
+        <div class="access__info">
+          <dl>
+            <div class="access__row">
+              <dt>店名</dt>
+              <dd>Bistro Épona（ビストロ エポナ）</dd>
+            </div>
+            <div class="access__row">
+              <dt>住所</dt>
+              <dd>〒150-0041<br>東京都渋谷区神南1-1-1 エポナビル 2F</dd>
+            </div>
+            <div class="access__row">
+              <dt>電話番号</dt>
+              <dd><a href="tel:0300000000">03-0000-0000</a></dd>
+            </div>
+            <div class="access__row">
+              <dt>営業時間</dt>
+              <dd>11:30–14:30（L.O. 14:00）<br>18:00–22:30（L.O. 21:30）</dd>
+            </div>
+            <div class="access__row">
+              <dt>定休日</dt>
+              <dd>毎週水曜日・第3火曜日</dd>
+            </div>
+            <div class="access__row">
+              <dt>アクセス</dt>
+              <dd>JR渋谷駅 ハチ公口より徒歩5分</dd>
+            </div>
+          </dl>
+          <a href="tel:0300000000" class="btn btn--primary access__call">電話でお問い合わせ</a>
+        </div>
+
+        <div class="access__map">
+          <iframe
+            title="店舗地図"
+            src="https://www.google.com/maps?q=%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%8B%E8%B0%B7%E5%8C%BA%E7%A5%9E%E5%8D%971-1-1&z=16&output=embed"
+            width="100%"
+            height="100%"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <p class="logo logo--footer">Bistro <span>Épona</span></p>
+    <p class="footer__copy">&copy; 2026 Bistro Épona. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
