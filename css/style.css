@@ -151,6 +151,45 @@ a {
   background: var(--color-accent-dark);
 }
 
+.nav__lang {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-size: 0.95rem;
+  letter-spacing: 0.03em;
+}
+
+.nav__lang-sep {
+  color: var(--color-ink-soft);
+  opacity: 0.5;
+}
+
+.nav__lang-item:not(.is-current) {
+  position: relative;
+}
+
+.nav__lang-item:not(.is-current)::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 1px;
+  background: var(--color-accent);
+  transition: width 0.25s ease;
+}
+
+.nav__lang-item:not(.is-current):hover::after {
+  width: 100%;
+}
+
+.nav__lang-item.is-current {
+  color: var(--color-ink-soft);
+  opacity: 0.5;
+  pointer-events: none;
+}
+
 .hamburger {
   display: none;
   flex-direction: column;
