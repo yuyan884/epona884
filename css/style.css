@@ -231,15 +231,20 @@ a {
   justify-content: center;
   text-align: center;
   overflow: hidden;
-  color: #fff8ee;
+  color: var(--color-ink);
 }
 
 .hero__bg {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(180deg, rgba(20, 15, 10, 0.55), rgba(20, 15, 10, 0.65)),
-    linear-gradient(135deg, #7c5527, #2a2420 70%);
+    radial-gradient(ellipse 40% 32% at 15% 20%, #c9ad86 0%, transparent 70%),
+    radial-gradient(ellipse 50% 38% at 80% 12%, #e6dbc7 0%, transparent 70%),
+    radial-gradient(ellipse 45% 40% at 68% 78%, #a68a63 0%, transparent 70%),
+    radial-gradient(ellipse 38% 32% at 12% 80%, #ddcaa9 0%, transparent 70%),
+    radial-gradient(ellipse 42% 38% at 92% 58%, #b89b73 0%, transparent 70%),
+    radial-gradient(ellipse 55% 48% at 45% 45%, #e0d0b3 0%, transparent 75%),
+    #cdb995;
   z-index: -1;
 }
 
@@ -294,12 +299,12 @@ a {
 }
 
 .btn--outline {
-  border-color: rgba(255, 255, 255, 0.6);
-  color: #fff8ee;
+  border-color: rgba(42, 36, 32, 0.4);
+  color: var(--color-ink);
 }
 
 .btn--outline:hover {
-  background: rgba(255, 255, 255, 0.12);
+  background: rgba(42, 36, 32, 0.08);
 }
 
 .scroll-cue {
@@ -313,7 +318,7 @@ a {
   display: block;
   width: 1px;
   height: 40px;
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(42, 36, 32, 0.5);
   animation: scrollCue 1.8s ease-in-out infinite;
 }
 
