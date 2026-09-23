@@ -174,11 +174,12 @@ a {
   opacity: 0.5;
 }
 
-.nav__lang-item:not(.is-current) {
+.nav__lang-item {
   position: relative;
+  color: inherit;
 }
 
-.nav__lang-item:not(.is-current)::after {
+.nav__lang-item::after {
   content: "";
   position: absolute;
   left: 0;
@@ -189,14 +190,12 @@ a {
   transition: width 0.25s ease;
 }
 
-.nav__lang-item:not(.is-current):hover::after {
+.nav__lang-item:hover::after {
   width: 100%;
 }
 
 .nav__lang-item.is-current {
-  color: var(--color-ink-soft);
-  opacity: 0.5;
-  pointer-events: none;
+  font-weight: 700;
 }
 
 .hamburger {
