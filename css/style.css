@@ -160,6 +160,34 @@ a {
   background: var(--color-accent-dark);
 }
 
+.nav__social {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-ink);
+  transition: color 0.2s ease;
+}
+
+.nav__social::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 1px;
+  background: var(--color-accent);
+  transition: width 0.25s ease;
+}
+
+.nav__social:hover {
+  color: var(--color-accent);
+}
+
+.nav__social:hover::after {
+  width: 100%;
+}
+
 .nav__lang {
   display: flex;
   align-items: center;
@@ -589,6 +617,10 @@ a {
 
   .nav__link {
     text-align: center;
+  }
+
+  .nav__social {
+    justify-content: center;
   }
 
   .hamburger {
