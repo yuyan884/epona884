@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "htmlLang": "en",
+    "title": "epona | Restaurant",
+    "description": "Official website of epona — a reservation-only restaurant offering carefully crafted seasonal dishes in a calm, intimate space in Tokushima."
+  },
+  "nav": {
+    "about": "About",
+    "gallery": "Gallery",
+    "access": "Access",
+    "cta": "Reserve",
+    "menuLabel": "Open menu"
+  },
+  "hero": {
+    "eyebrow": "TOKUSHIMA · PRIVATE RESTRANT",
+    "lead": "Seasonal ingredients, and time to savor the quiet.",
+    "ctaAccess": "Access",
+    "ctaGallery": "View Gallery",
+    "scrollLabel": "Scroll down"
+  },
+  "about": {
+    "heading": "About epona",
+    "imageCaption": "Interior Photo",
+    "paragraph1": "epona is a reservation-only restaurant hosting just one party at a time. We serve nothing but a monthly-changing omakase course made with seasonal ingredients and vegetables and herbs from our own garden.",
+    "paragraph2": "We take reservations first, then source ingredients and cook each dish at its best moment for your visit — which is why we operate by reservation only. Our bread, made with pesticide-free wheat, is also baked fresh to match your reservation time, and our sommelier prepares a drink pairing for each course.",
+    "features": {
+      "ingredients": { "title": "Curated Ingredients", "desc": "Seasonal ingredients and vegetables &amp; herbs from our own garden" },
+      "hours": { "title": "Reservation Hours", "desc": "Lunch 11:30〜 / Dinner 18:00〜<br>(One party per seating)" },
+      "closed": { "title": "Closed", "desc": "Wednesdays &amp; the 3rd Tuesday of the month" },
+      "accessibility": { "title": "Accessibility", "desc": "We also offer sign language assistance (still learning). Wheelchairs and guide dogs are welcome." },
+      "kids": { "title": "Families Welcome", "desc": "As we host only one party at a time, you can relax even with small children." }
+    }
+  },
+  "gallery": {
+    "heading": "Gallery",
+    "lead": "Photos of our dishes and interior. (Placeholder images)",
+    "items": {
+      "dish1": "Dish Photo 1",
+      "dish2": "Dish Photo 2",
+      "interior1": "Interior Photo 1",
+      "dish3": "Dish Photo 3",
+      "interior2": "Interior Photo 2",
+      "dish4": "Dish Photo 4"
+    },
+    "lightboxClose": "Close",
+    "lightboxDefaultCaption": "Dish Photo"
+  },
+  "access": {
+    "heading": "Access",
+    "rows": {
+      "name": { "label": "Name", "value": "epona" },
+      "address": { "label": "Address", "value": "102 Miyajima-Honura, Kawachi-cho,<br>Tokushima City, Tokushima 771-0114, Japan" },
+      "phoneLabel": "Phone",
+      "hours": { "label": "Reservation Hours", "value": "Lunch 11:30〜<br>Dinner 18:00〜<br>(One party per seating)" },
+      "closed": { "label": "Closed", "value": "Wednesdays &amp; the 3rd Tuesday of the month" },
+      "directions": { "label": "Directions", "value": "3-min walk from Awa Jurobei Yashiki (Tokushima Prefectural)" },
+      "parking": { "label": "Parking", "value": "Private parking available (3 spaces)" }
+    },
+    "callCta": "Call Us",
+    "mapTitle": "Store Map"
+  }
+}

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="{{t.meta.htmlLang}}">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{t.meta.title}}</title>
+<meta name="description" content="{{t.meta.description}}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{asset.css}}">
+</head>
+<body>
+
+<header class="header" id="header">
+  <div class="header__inner container">
+    <a href="#top" class="logo" aria-label="epona"><span aria-hidden="true">epo<span class="n-flip n-flip-logo">u</span>a</span></a>
+    <nav class="nav" id="nav">
+      <a href="#about" class="nav__link">{{t.nav.about}}</a>
+      <a href="#gallery" class="nav__link">{{t.nav.gallery}}</a>
+      <a href="#access" class="nav__link">{{t.nav.access}}</a>
+      <div class="nav__lang">
+        <a href="/en/" class="nav__lang-item{{navLang.enCurrentClass}}"{{navLang.enCurrentAttr}}>EN</a>
+        <span class="nav__lang-sep" aria-hidden="true">/</span>
+        <a href="/" class="nav__lang-item{{navLang.jaCurrentClass}}"{{navLang.jaCurrentAttr}}>JA</a>
+      </div>
+      <a href="{{common.instagramUrl}}" class="nav__social" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+          <rect x="3" y="3" width="18" height="18" rx="5"/>
+          <circle cx="12" cy="12" r="4.2"/>
+          <circle cx="17.4" cy="6.6" r="1.1" fill="currentColor" stroke="none"/>
+        </svg>
+      </a>
+      <a href="{{common.phone.href}}" class="nav__link nav__link--cta">{{t.nav.cta}}</a>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="{{t.nav.menuLabel}}" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero" id="top">
+    <div class="hero__bg" aria-hidden="true"></div>
+    <div class="hero__content">
+      <p class="hero__eyebrow">{{t.hero.eyebrow}}</p>
+      <h1 class="hero__title" aria-label="epona"><span aria-hidden="true" class="gold-text">epo<span class="n-flip">u</span>a</span></h1>
+      <p class="hero__lead">{{t.hero.lead}}</p>
+      <div class="hero__actions">
+        <a href="#access" class="btn btn--primary">{{t.hero.ctaAccess}}</a>
+        <a href="#gallery" class="btn btn--outline">{{t.hero.ctaGallery}}</a>
+      </div>
+    </div>
+    <a href="#about" class="scroll-cue" aria-label="{{t.hero.scrollLabel}}">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ===== About ===== -->
+  <section class="section about" id="about">
+    <div class="container">
+      <p class="section__eyebrow">ABOUT</p>
+      <h2 class="section__title">{{t.about.heading}}</h2>
+
+      <div class="about__grid">
+        <div class="about__image placeholder-img" aria-hidden="true">
+          <span>{{t.about.imageCaption}}</span>
+        </div>
+        <div class="about__text">
+          <p>
+            {{t.about.paragraph1}}
+          </p>
+          <p>
+            {{t.about.paragraph2}}
+          </p>
+
+          <ul class="about__features">
+            <li>
+              <strong>{{t.about.features.ingredients.title}}</strong>
+              <span>{{t.about.features.ingredients.desc}}</span>
+            </li>
+            <!--
+            <li>
+              <strong>シェフ紹介</strong>
+              <span>フランス修業を経たシェフによる、一皿ごとのおまかせコース</span>
+            </li>
+          -->
+            <li>
+              <strong>{{t.about.features.hours.title}}</strong>
+              <span>{{t.about.features.hours.desc}}</span>
+            </li>
+            <li>
+              <strong>{{t.about.features.closed.title}}</strong>
+              <span>{{t.about.features.closed.desc}}</span>
+            </li>
+            <li>
+              <strong>{{t.about.features.accessibility.title}}</strong>
+              <span>{{t.about.features.accessibility.desc}}</span>
+            </li>
+            <li>
+              <strong>{{t.about.features.kids.title}}</strong>
+              <span>{{t.about.features.kids.desc}}</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Gallery ===== -->
+  <section class="section gallery" id="gallery">
+    <div class="container">
+      <p class="section__eyebrow">GALLERY</p>
+      <h2 class="section__title">{{t.gallery.heading}}</h2>
+      <p class="section__lead">{{t.gallery.lead}}</p>
+
+      <div class="gallery__grid">
+        <button class="gallery__item placeholder-img" data-caption="{{t.gallery.items.dish1}}"><span>{{t.gallery.items.dish1}}</span></button>
+        <button class="gallery__item placeholder-img" data-caption="{{t.gallery.items.dish2}}"><span>{{t.gallery.items.dish2}}</span></button>
+        <button class="gallery__item placeholder-img" data-caption="{{t.gallery.items.interior1}}"><span>{{t.gallery.items.interior1}}</span></button>
+        <button class="gallery__item placeholder-img" data-caption="{{t.gallery.items.dish3}}"><span>{{t.gallery.items.dish3}}</span></button>
+        <button class="gallery__item placeholder-img" data-caption="{{t.gallery.items.interior2}}"><span>{{t.gallery.items.interior2}}</span></button>
+        <button class="gallery__item placeholder-img" data-caption="{{t.gallery.items.dish4}}"><span>{{t.gallery.items.dish4}}</span></button>
+      </div>
+    </div>
+
+    <div class="lightbox" id="lightbox">
+      <button class="lightbox__close" id="lightboxClose" aria-label="{{t.gallery.lightboxClose}}">&times;</button>
+      <div class="lightbox__content placeholder-img">
+        <span id="lightboxCaption">{{t.gallery.lightboxDefaultCaption}}</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Access ===== -->
+  <section class="section access" id="access">
+    <div class="container">
+      <p class="section__eyebrow">ACCESS</p>
+      <h2 class="section__title">{{t.access.heading}}</h2>
+
+      <div class="access__grid">
+        <div class="access__info">
+          <dl>
+            <div class="access__row">
+              <dt>{{t.access.rows.name.label}}</dt>
+              <dd>{{t.access.rows.name.value}}</dd>
+            </div>
+            <div class="access__row">
+              <dt>{{t.access.rows.address.label}}</dt>
+              <dd>{{t.access.rows.address.value}}</dd>
+            </div>
+            <div class="access__row">
+              <dt>{{t.access.rows.phoneLabel}}</dt>
+              <dd><a href="{{common.phone.href}}">{{common.phone.display}}</a></dd>
+            </div>
+            <div class="access__row">
+              <dt>{{t.access.rows.hours.label}}</dt>
+              <dd>{{t.access.rows.hours.value}}</dd>
+            </div>
+            <div class="access__row">
+              <dt>{{t.access.rows.closed.label}}</dt>
+              <dd>{{t.access.rows.closed.value}}</dd>
+            </div>
+            <div class="access__row">
+              <dt>{{t.access.rows.directions.label}}</dt>
+              <dd>{{t.access.rows.directions.value}}</dd>
+            </div>
+            <div class="access__row">
+              <dt>{{t.access.rows.parking.label}}</dt>
+              <dd>{{t.access.rows.parking.value}}</dd>
+            </div>
+          </dl>
+          <a href="{{common.phone.href}}" class="btn btn--primary access__call">{{t.access.callCta}}</a>
+        </div>
+
+        <div class="access__map">
+          <iframe
+            title="{{t.access.mapTitle}}"
+            src="{{common.mapEmbedSrc}}"
+            width="100%"
+            height="100%"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <p class="logo logo--footer" aria-label="epona"><span aria-hidden="true">epo<span class="n-flip n-flip-logo">u</span>a</span></p>
+    <p class="footer__copy">{{common.copyright}}</p>
+  </div>
+</footer>
+
+<script src="{{asset.js}}"></script>
+</body>
+</html>

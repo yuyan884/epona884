@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "htmlLang": "ja",
+    "title": "epona | レストラン",
+    "description": "epona（エポーナ）の公式ページ。こだわりの料理と落ち着いた空間をご紹介します。"
+  },
+  "nav": {
+    "about": "当店について",
+    "gallery": "ギャラリー",
+    "access": "アクセス",
+    "cta": "ご予約",
+    "menuLabel": "メニューを開く"
+  },
+  "hero": {
+    "eyebrow": "TOKUSHIMA · PRIVATE RESTRANT",
+    "lead": "旬の食材と、静かな時間を。",
+    "ctaAccess": "アクセス",
+    "ctaGallery": "ギャラリーを見る",
+    "scrollLabel": "下にスクロール"
+  },
+  "about": {
+    "heading": "当店について",
+    "imageCaption": "店内写真",
+    "paragraph1": "epona（エポーナ）は、1組限定・完全予約制のレストランです。季節の食材と自家菜園の野菜やハーブを使った、月替わりのおまかせコース料理のみをご提供しております。",
+    "paragraph2": "ご予約に合わせて仕入れを行い、食材にとって最適な火入れと調理をするために完全予約制とさせていただいております。無農薬小麦を使ったパンもご予約のお時間に合わせて焼き上げ、ソムリエがコース料理一品ずつに合うお酒もご用意しております。",
+    "features": {
+      "ingredients": { "title": "こだわりの食材", "desc": "厳選した季節の食材と自家菜園の野菜やハーブを使用" },
+      "hours": { "title": "ご予約時間", "desc": "ランチの部 11:30〜 / ディナーの部 18:00〜<br>（各回1組限定）" },
+      "closed": { "title": "定休日", "desc": "毎週水曜日・第3火曜日" },
+      "accessibility": { "title": "バリアフリー対応", "desc": "手話でのご案内にも対応しております（勉強中）。車椅子・盲導犬でのご来店も歓迎いたします" },
+      "kids": { "title": "お子様連れ歓迎", "desc": "1組限定のため、小さなお子様とご一緒でもゆったりとお過ごしいただけます" }
+    }
+  },
+  "gallery": {
+    "heading": "ギャラリー",
+    "lead": "料理や店内の様子です。（プレースホルダー画像）",
+    "items": {
+      "dish1": "料理写真 1",
+      "dish2": "料理写真 2",
+      "interior1": "店内写真 1",
+      "dish3": "料理写真 3",
+      "interior2": "店内写真 2",
+      "dish4": "料理写真 4"
+    },
+    "lightboxClose": "閉じる",
+    "lightboxDefaultCaption": "料理写真"
+  },
+  "access": {
+    "heading": "アクセス",
+    "rows": {
+      "name": { "label": "店名", "value": "epona（エポーナ）" },
+      "address": { "label": "住所", "value": "〒771-0114<br>徳島県徳島市川内町宮島本浦102番地" },
+      "phoneLabel": "電話番号",
+      "hours": { "label": "ご予約時間", "value": "ランチの部 11:30〜<br>ディナーの部 18:00〜<br>（各回1組限定）" },
+      "closed": { "label": "定休日", "value": "毎週水曜日・第3火曜日" },
+      "directions": { "label": "アクセス", "value": "徳島県立阿波十郎兵衛屋敷より徒歩3分" },
+      "parking": { "label": "駐車場", "value": "専用駐車場あり（3台）" }
+    },
+    "callCta": "電話でお問い合わせ",
+    "mapTitle": "店舗地図"
+  }
+}

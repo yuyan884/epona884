@@ -1,16 +1,16 @@
 <!-- This file is auto-generated from template.html + i18n/*.json.
      Edit those source files and run `python3 build.py` to regenerate. -->
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>epona | レストラン</title>
-<meta name="description" content="epona（エポーナ）の公式ページ。こだわりの料理と落ち着いた空間をご紹介します。">
+<title>epona | Restaurant</title>
+<meta name="description" content="Official website of epona — a reservation-only restaurant offering carefully crafted seasonal dishes in a calm, intimate space in Tokushima.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 
@@ -18,13 +18,13 @@
   <div class="header__inner container">
     <a href="#top" class="logo" aria-label="epona"><span aria-hidden="true">epo<span class="n-flip n-flip-logo">u</span>a</span></a>
     <nav class="nav" id="nav">
-      <a href="#about" class="nav__link">当店について</a>
-      <a href="#gallery" class="nav__link">ギャラリー</a>
-      <a href="#access" class="nav__link">アクセス</a>
+      <a href="#about" class="nav__link">About</a>
+      <a href="#gallery" class="nav__link">Gallery</a>
+      <a href="#access" class="nav__link">Access</a>
       <div class="nav__lang">
-        <a href="/en/" class="nav__lang-item">EN</a>
+        <a href="/en/" class="nav__lang-item is-current" aria-current="page">EN</a>
         <span class="nav__lang-sep" aria-hidden="true">/</span>
-        <a href="/" class="nav__lang-item is-current" aria-current="page">JA</a>
+        <a href="/" class="nav__lang-item">JA</a>
       </div>
       <a href="https://www.instagram.com/epona884/" class="nav__social" target="_blank" rel="noopener" aria-label="Instagram">
         <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
@@ -33,9 +33,9 @@
           <circle cx="17.4" cy="6.6" r="1.1" fill="currentColor" stroke="none"/>
         </svg>
       </a>
-      <a href="tel:0300000000" class="nav__link nav__link--cta">ご予約</a>
+      <a href="tel:0300000000" class="nav__link nav__link--cta">Reserve</a>
     </nav>
-    <button class="hamburger" id="hamburger" aria-label="メニューを開く" aria-expanded="false">
+    <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
   </div>
@@ -49,13 +49,13 @@
     <div class="hero__content">
       <p class="hero__eyebrow">TOKUSHIMA · PRIVATE RESTRANT</p>
       <h1 class="hero__title" aria-label="epona"><span aria-hidden="true" class="gold-text">epo<span class="n-flip">u</span>a</span></h1>
-      <p class="hero__lead">旬の食材と、静かな時間を。</p>
+      <p class="hero__lead">Seasonal ingredients, and time to savor the quiet.</p>
       <div class="hero__actions">
-        <a href="#access" class="btn btn--primary">アクセス</a>
-        <a href="#gallery" class="btn btn--outline">ギャラリーを見る</a>
+        <a href="#access" class="btn btn--primary">Access</a>
+        <a href="#gallery" class="btn btn--outline">View Gallery</a>
       </div>
     </div>
-    <a href="#about" class="scroll-cue" aria-label="下にスクロール">
+    <a href="#about" class="scroll-cue" aria-label="Scroll down">
       <span></span>
     </a>
   </section>
@@ -64,24 +64,24 @@
   <section class="section about" id="about">
     <div class="container">
       <p class="section__eyebrow">ABOUT</p>
-      <h2 class="section__title">当店について</h2>
+      <h2 class="section__title">About epona</h2>
 
       <div class="about__grid">
         <div class="about__image placeholder-img" aria-hidden="true">
-          <span>店内写真</span>
+          <span>Interior Photo</span>
         </div>
         <div class="about__text">
           <p>
-            epona（エポーナ）は、1組限定・完全予約制のレストランです。季節の食材と自家菜園の野菜やハーブを使った、月替わりのおまかせコース料理のみをご提供しております。
+            epona is a reservation-only restaurant hosting just one party at a time. We serve nothing but a monthly-changing omakase course made with seasonal ingredients and vegetables and herbs from our own garden.
           </p>
           <p>
-            ご予約に合わせて仕入れを行い、食材にとって最適な火入れと調理をするために完全予約制とさせていただいております。無農薬小麦を使ったパンもご予約のお時間に合わせて焼き上げ、ソムリエがコース料理一品ずつに合うお酒もご用意しております。
+            We take reservations first, then source ingredients and cook each dish at its best moment for your visit — which is why we operate by reservation only. Our bread, made with pesticide-free wheat, is also baked fresh to match your reservation time, and our sommelier prepares a drink pairing for each course.
           </p>
 
           <ul class="about__features">
             <li>
-              <strong>こだわりの食材</strong>
-              <span>厳選した季節の食材と自家菜園の野菜やハーブを使用</span>
+              <strong>Curated Ingredients</strong>
+              <span>Seasonal ingredients and vegetables &amp; herbs from our own garden</span>
             </li>
             <!--
             <li>
@@ -90,20 +90,20 @@
             </li>
           -->
             <li>
-              <strong>ご予約時間</strong>
-              <span>ランチの部 11:30〜 / ディナーの部 18:00〜<br>（各回1組限定）</span>
+              <strong>Reservation Hours</strong>
+              <span>Lunch 11:30〜 / Dinner 18:00〜<br>(One party per seating)</span>
             </li>
             <li>
-              <strong>定休日</strong>
-              <span>毎週水曜日・第3火曜日</span>
+              <strong>Closed</strong>
+              <span>Wednesdays &amp; the 3rd Tuesday of the month</span>
             </li>
             <li>
-              <strong>バリアフリー対応</strong>
-              <span>手話でのご案内にも対応しております（勉強中）。車椅子・盲導犬でのご来店も歓迎いたします</span>
+              <strong>Accessibility</strong>
+              <span>We also offer sign language assistance (still learning). Wheelchairs and guide dogs are welcome.</span>
             </li>
             <li>
-              <strong>お子様連れ歓迎</strong>
-              <span>1組限定のため、小さなお子様とご一緒でもゆったりとお過ごしいただけます</span>
+              <strong>Families Welcome</strong>
+              <span>As we host only one party at a time, you can relax even with small children.</span>
             </li>
           </ul>
         </div>
@@ -115,23 +115,23 @@
   <section class="section gallery" id="gallery">
     <div class="container">
       <p class="section__eyebrow">GALLERY</p>
-      <h2 class="section__title">ギャラリー</h2>
-      <p class="section__lead">料理や店内の様子です。（プレースホルダー画像）</p>
+      <h2 class="section__title">Gallery</h2>
+      <p class="section__lead">Photos of our dishes and interior. (Placeholder images)</p>
 
       <div class="gallery__grid">
-        <button class="gallery__item placeholder-img" data-caption="料理写真 1"><span>料理写真 1</span></button>
-        <button class="gallery__item placeholder-img" data-caption="料理写真 2"><span>料理写真 2</span></button>
-        <button class="gallery__item placeholder-img" data-caption="店内写真 1"><span>店内写真 1</span></button>
-        <button class="gallery__item placeholder-img" data-caption="料理写真 3"><span>料理写真 3</span></button>
-        <button class="gallery__item placeholder-img" data-caption="店内写真 2"><span>店内写真 2</span></button>
-        <button class="gallery__item placeholder-img" data-caption="料理写真 4"><span>料理写真 4</span></button>
+        <button class="gallery__item placeholder-img" data-caption="Dish Photo 1"><span>Dish Photo 1</span></button>
+        <button class="gallery__item placeholder-img" data-caption="Dish Photo 2"><span>Dish Photo 2</span></button>
+        <button class="gallery__item placeholder-img" data-caption="Interior Photo 1"><span>Interior Photo 1</span></button>
+        <button class="gallery__item placeholder-img" data-caption="Dish Photo 3"><span>Dish Photo 3</span></button>
+        <button class="gallery__item placeholder-img" data-caption="Interior Photo 2"><span>Interior Photo 2</span></button>
+        <button class="gallery__item placeholder-img" data-caption="Dish Photo 4"><span>Dish Photo 4</span></button>
       </div>
     </div>
 
     <div class="lightbox" id="lightbox">
-      <button class="lightbox__close" id="lightboxClose" aria-label="閉じる">&times;</button>
+      <button class="lightbox__close" id="lightboxClose" aria-label="Close">&times;</button>
       <div class="lightbox__content placeholder-img">
-        <span id="lightboxCaption">料理写真</span>
+        <span id="lightboxCaption">Dish Photo</span>
       </div>
     </div>
   </section>
@@ -140,46 +140,46 @@
   <section class="section access" id="access">
     <div class="container">
       <p class="section__eyebrow">ACCESS</p>
-      <h2 class="section__title">アクセス</h2>
+      <h2 class="section__title">Access</h2>
 
       <div class="access__grid">
         <div class="access__info">
           <dl>
             <div class="access__row">
-              <dt>店名</dt>
-              <dd>epona（エポーナ）</dd>
+              <dt>Name</dt>
+              <dd>epona</dd>
             </div>
             <div class="access__row">
-              <dt>住所</dt>
-              <dd>〒771-0114<br>徳島県徳島市川内町宮島本浦102番地</dd>
+              <dt>Address</dt>
+              <dd>102 Miyajima-Honura, Kawachi-cho,<br>Tokushima City, Tokushima 771-0114, Japan</dd>
             </div>
             <div class="access__row">
-              <dt>電話番号</dt>
+              <dt>Phone</dt>
               <dd><a href="tel:0300000000">03-0000-0000</a></dd>
             </div>
             <div class="access__row">
-              <dt>ご予約時間</dt>
-              <dd>ランチの部 11:30〜<br>ディナーの部 18:00〜<br>（各回1組限定）</dd>
+              <dt>Reservation Hours</dt>
+              <dd>Lunch 11:30〜<br>Dinner 18:00〜<br>(One party per seating)</dd>
             </div>
             <div class="access__row">
-              <dt>定休日</dt>
-              <dd>毎週水曜日・第3火曜日</dd>
+              <dt>Closed</dt>
+              <dd>Wednesdays &amp; the 3rd Tuesday of the month</dd>
             </div>
             <div class="access__row">
-              <dt>アクセス</dt>
-              <dd>徳島県立阿波十郎兵衛屋敷より徒歩3分</dd>
+              <dt>Directions</dt>
+              <dd>3-min walk from Awa Jurobei Yashiki (Tokushima Prefectural)</dd>
             </div>
             <div class="access__row">
-              <dt>駐車場</dt>
-              <dd>専用駐車場あり（3台）</dd>
+              <dt>Parking</dt>
+              <dd>Private parking available (3 spaces)</dd>
             </div>
           </dl>
-          <a href="tel:0300000000" class="btn btn--primary access__call">電話でお問い合わせ</a>
+          <a href="tel:0300000000" class="btn btn--primary access__call">Call Us</a>
         </div>
 
         <div class="access__map">
           <iframe
-            title="店舗地図"
+            title="Store Map"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2320.4247591915528!2d134.5841079544287!3d34.090194515625896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35536db5ff1058d5%3A0xec5d7f01f79faf17!2z44CSNzcxLTAxMTQg5b6z5bO255yM5b6z5bO25biC5bed5YaF55S65a6u5bO25pys5rWm77yR77yQ77yS!5e0!3m2!1sja!2sjp!4v1790388606325!5m2!1sja!2sjp"
             width="100%"
             height="100%"
@@ -202,6 +202,6 @@
   </div>
 </footer>
 
-<script src="js/script.js"></script>
+<script src="../js/script.js"></script>
 </body>
 </html>
