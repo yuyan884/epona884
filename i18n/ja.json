@@ -47,6 +47,7 @@
   },
   "access": {
     "heading": "アクセス",
+    "mapEmbedSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2320.4247591915528!2d134.5841079544287!3d34.090194515625896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35536db5ff1058d5%3A0xec5d7f01f79faf17!2z44CSNzcxLTAxMTQg5b6z5bO255yM5b6z5bO25biC5bed5YaF55S65a6u5bO25pys5rWm77yR77yQ77yS!5e0!3m2!1sja!2sjp!4v1790388606325!5m2!1sja!2sjp",
     "rows": {
       "name": { "label": "店名", "value": "epona（エポーナ）" },
       "address": { "label": "住所", "value": "〒771-0114<br>徳島県徳島市川内町宮島本浦102番地" },
